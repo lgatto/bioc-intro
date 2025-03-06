@@ -320,7 +320,8 @@ wrong with this data and how you would fix it.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge: Once you have tidied up the data, answer the following questions:
+## Challenge: Once you have tidied up the data, compare the tidy and messy versions of the data, and reflect/discuss with your neighbour to how easy/difficult it would be to answer the following questions.
+
 
 - How many men and women took part in the study?
 - How many A, AB, and B types have been tested?
