@@ -220,7 +220,7 @@ instructor asks for a different analysis, you should
 
 This might be an example of a spreadsheet setup:
 
-![](fig/spreadsheet-setup-updated.png)
+<img src="fig/spreadsheet-setup-updated.png" alt="Spreadsheet setup" style="display: block; margin: auto;" />
 
 Put these principles in to practice today during your exercises.
 
@@ -252,7 +252,7 @@ the hospital, the patients' gender, weight and blood group.
 
 If we were to keep track of the data like this:
 
-![](fig/multiple-info.png)
+<img src="fig/multiple-info.png" alt="More than one info per cell" width="70%" style="display: block; margin: auto;" />
 
 the problem is that the ABO and Rhesus groups are in the same `Blood`
 type column. So, if they wanted to look at all observations of the A
@@ -260,7 +260,9 @@ group or look at weight distributions by ABO group, it would be tricky
 to do this using this data setup. If instead we put the ABO and Rhesus
 groups in different columns, you can see that it would be much easier.
 
-![](fig/single-info.png)
+
+<img src="fig/single-info.png" alt="Single info per cell" width="70%" style="display: block; margin: auto;" />
+
 
 An important rule when setting up a datasheet, is that **columns are
 used for variables** and **rows are used for observations**:
@@ -401,7 +403,8 @@ an observation. You're also potentially using the same field name in
 multiple places, which will make it harder to clean your data up into
 a usable form. The example below depicts the problem:
 
-![](fig/2_datasheet_example.jpg)
+
+<img src="fig/2_datasheet_example.jpg" alt="Multiple tables par sheet" style="display: block; margin: auto;" />
 
 In the example above, the computer will see (for example) row 4 and
 assume that all columns A-AF refer to the same sample. This row
@@ -503,7 +506,7 @@ Blanks (most applications) and NA (for R) are good
 choices. @White:2013 explain good choices for indicating null values
 for different software applications in their article:
 
-![](fig/3_white_table_1.jpg)
+<img src="fig/3_white_table_1.jpg" alt="Table describing how to encode missing data" style="display: block; margin: auto;" />
 
 ### Using formatting to convey information {#formatting}
 
@@ -511,12 +514,12 @@ for different software applications in their article:
 excluded from an analysis, leaving blank rows to indicate
 separations in data.
 
-![](fig/formatting.png)
+<img src="fig/formatting.png" alt="Using colours to convey information" style="display: block; margin: auto;" />
 
 **Solution**: create a new field to encode which data should be
 excluded.
 
-![](fig/good_formatting.png)
+<img src="fig/good_formatting.png" alt="Using a proper variable to encode information previously conveyed with colour" style="display: block; margin: auto;" />
 
 ### Using formatting to make the data sheet look pretty {#formattingpretty}
 
@@ -715,7 +718,7 @@ An important note for backwards compatibility: you can open CSV files
 in Excel!
 
 <div class="figure" style="text-align: center">
-<img src="fig/excel-to-csv.png" alt="Saving an Excel file to CSV." width="70%" />
+<img src="fig/excel-to-csv.png" alt="Export to csv"  />
 <p class="caption">Saving an Excel file to CSV.</p>
 </div>
 
@@ -756,7 +759,7 @@ to read the above into Excel (or other spreadsheet program), we will
 get something like this:
 
 <div class="figure" style="text-align: center">
-<img src="fig/csv-mistake.png" alt="The risks of having commas inside comma-separated data." width="80%" />
+<img src="fig/csv-mistake.png" alt="The risks of having commas inside comma-separated data"  />
 <p class="caption">The risks of having commas inside comma-separated data.</p>
 </div>
 
@@ -815,7 +818,7 @@ build relevant scripts.
 ## Summary
 
 <div class="figure" style="text-align: center">
-<img src="fig/analysis.png" alt="A typical data analysis workflow."  />
+<img src="fig/analysis.png" alt="A typical data analysis workflow"  />
 <p class="caption">A typical data analysis workflow.</p>
 </div>
 

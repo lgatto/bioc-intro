@@ -743,7 +743,7 @@ while the latter is the preferred structure for many bioinformatics and
 statistical processing steps. For example, a typical RNA-Seq analyses using
 the `DESeq2` package.
 
-#### Adding variables to metadata
+### Adding variables to metadata
 
 We can also add information to the metadata.
 Suppose that you want to add the center where the samples were collected...

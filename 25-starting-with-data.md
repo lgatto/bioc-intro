@@ -267,7 +267,7 @@ objects besides `data.frame`.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 Based on the output of `str(rna)`, can you answer the following
 questions?
@@ -560,7 +560,7 @@ plot(sex)
 
 ::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 - Rename "F" and "M" to "Female" and "Male" respectively.
 
@@ -587,7 +587,7 @@ levels(sex) <- c("Male", "Female")
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 We have seen how data frames are created when using `read.csv()`, but
 they can also be created by hand with the `data.frame()` function.
@@ -616,7 +616,7 @@ animal_data <- data.frame(
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 Can you predict the class for each of the columns in the following
 example?
@@ -710,7 +710,7 @@ m
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 Using the function `installed.packages()`, create a `character` matrix
 containing the information about all packages currently installed on
@@ -718,7 +718,7 @@ your computer. Explore it.
 
 :::::::::::::::  solution
 
-## Solution:
+## Solution
 
 
 ``` r
@@ -745,14 +745,14 @@ data drawn from a normal distribution of mean 0 and standard deviation
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 Construct a matrix of dimension 1000 by 3 of normally distributed data
 (mean 0, standard deviation 1)
 
 :::::::::::::::  solution
 
-## Solution:
+## Solution
 
 
 ``` r
