@@ -384,7 +384,7 @@ and analysis.
 - [Not filling in zeros](#zeros)
 - [Using problematic null values](#null)
 - [Using formatting to convey information](#formatting)
-- [Using formatting to make the data sheet look pretty](#formatting_pretty)
+- [Using formatting to make the data sheet look pretty](#formattingpretty)
 - [Placing comments or units in cells](#units)
 - [Entering more than one piece of information in a cell](#info)
 - [Using problematic field names](#field_name)
@@ -518,7 +518,7 @@ excluded.
 
 ![](fig/good_formatting.png)
 
-### Using formatting to make the data sheet look pretty {#formatting\_pretty}
+### Using formatting to make the data sheet look pretty {#formattingpretty}
 
 **Example**: merging cells.
 
