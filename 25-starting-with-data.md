@@ -752,7 +752,7 @@ Construct a matrix of dimension 1000 by 3 of normally distributed data
 
 :::::::::::::::  solution
 
-## Solution
+## Solution:
 
 
 ``` r

@@ -176,11 +176,25 @@ weight_kg <- 100
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 What do you think is the current content of the object `weight_lb`?
 126\.5 or 220?
 
+:::::::::::::::  solution
+
+## Solution
+
+
+``` r
+weight_lb
+```
+
+``` output
+[1] 126.5
+```
+
+:::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -211,6 +225,54 @@ mass <- mass * 2.0      # mass?
 age  <- age - 20        # age?
 mass_index <- mass/age  # mass_index?
 ```
+
+
+:::::::::::::::  solution
+
+## Solution
+
+
+``` r
+(mass <- 47.5)
+```
+
+``` output
+[1] 47.5
+```
+
+``` r
+(age  <- 122)
+```
+
+``` output
+[1] 122
+```
+
+``` r
+(mass <- mass * 2.0)
+```
+
+``` output
+[1] 95
+```
+
+``` r
+(age  <- age - 20)
+```
+
+``` output
+[1] 102
+```
+
+``` r
+(mass_index <- mass/age)
+```
+
+``` output
+[1] 0.9313725
+```
+
+:::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -463,7 +525,7 @@ important ones are lists (`list`), matrices (`matrix`), data frames
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 We've seen that atomic vectors can be of type character, numeric (or
 double), integer, and logical. But what happens if we try to mix
@@ -475,15 +537,13 @@ these types in a single vector?
 
 R implicitly converts them to all be the same type
 
-
-
 :::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 What will happen in each of these examples? (hint: use `class()` to
 check the data type of your objects and type in their names to see what happens):
@@ -571,7 +631,7 @@ tricky
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 Why do you think it happens?
 
@@ -591,7 +651,7 @@ doesn't lose any information.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 How many values in `combined_logical` are `"TRUE"` (as a character)
 in the following example:
@@ -627,7 +687,7 @@ combined_logical
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 In R, we call converting objects from one class into another class
 *coercion*. These conversions happen according to a hierarchy,
@@ -824,7 +884,7 @@ molecules[molecules %in% c("rna", "dna", "metabolite", "peptide", "glycerol")]
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 Can you figure out why `"four" > "five"` returns `TRUE`?
 
@@ -986,7 +1046,7 @@ heights[complete.cases(heights)]
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 1. Using this vector of heights in inches, create a new vector with the NAs removed.
 
@@ -1077,7 +1137,7 @@ There are similar constructors for characters and logicals, named
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 What are the defaults for character and logical vectors?
 
@@ -1149,7 +1209,7 @@ rep(c(1, 2, 3), 5)
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 What if we wanted to repeat the values 1, 2 and 3 five times, but
 obtain five 1s, five 2s and five 3s in that order? There are two
@@ -1282,7 +1342,7 @@ sample(1:5, 10, replace = TRUE)
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Challenge:
+## Challenge
 
 When trying the functions above out, you will have realised that the
 samples are indeed random and that one doesn't get the same
@@ -1376,7 +1436,7 @@ and 100 and standard deviations 1 and 5, noted *N(0, 1)* and
 *N(100, 5)*, are shown below.
 
 <div class="figure" style="text-align: center">
-<img src="fig/23-starting-with-r-rendered-unnamed-chunk-61-1.png" alt="Two normal distributions: *N(0, 1)* on the left and *N(100, 5)* on the right."  />
+<img src="fig/23-starting-with-r-rendered-unnamed-chunk-63-1.png" alt="Two normal distributions: *N(0, 1)* on the left and *N(100, 5)* on the right."  />
 <p class="caption">Two normal distributions: *N(0, 1)* on the left and *N(100, 5)* on the right.</p>
 </div>
 
