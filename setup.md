@@ -7,7 +7,7 @@ title: Setup
 
 - Install R, RStudio and packages (see below).
 
-## R and RStudio
+### R and RStudio
 
 - R and RStudio are separate downloads and installations. R is the
   underlying statistical computing environment, but using R alone is
@@ -18,13 +18,13 @@ title: Setup
   RStudio. Follow the instructions below for your operating system,
   and then follow the instructions to install packages.
 
-## You are running Windows
+### You are running Windows
 
 <br>
 
 :::::::::::::::  solution
 
-### If you already have R and RStudio installed
+## If you already have R and RStudio installed
 
 - Open RStudio, and click on "Help" > "Check for updates". If a new version is
   available, quit RStudio, and download the latest version for RStudio.
@@ -46,7 +46,7 @@ title: Setup
 
 :::::::::::::::  solution
 
-### If you don't have R and RStudio installed
+## If you don't have R and RStudio installed
 
 - Download R from
   the [CRAN website](https://cran.r-project.org/bin/windows/base/release.htm).
@@ -68,13 +68,13 @@ title: Setup
 
 :::::::::::::::::::::::::
 
-## You are running macOS
+### You are running macOS
 
 <br>
 
 :::::::::::::::  solution
 
-### If you already have R and RStudio installed
+## If you already have R and RStudio installed
 
 - Open RStudio, and click on "Help" > "Check for updates". If a new version is
   available, quit RStudio, and download the latest version for RStudio.
@@ -94,7 +94,7 @@ title: Setup
 
 :::::::::::::::  solution
 
-### If you don't have R and RStudio installed
+## If you don't have R and RStudio installed
 
 - Download R from
   the [CRAN website](https://cran.r-project.org/bin/macosx/).
@@ -121,13 +121,13 @@ title: Setup
 
 :::::::::::::::::::::::::
 
-## You are running Linux
+### You are running Linux
 
 <br>
 
 :::::::::::::::  solution
 
-### Install R using your package manager and RStudio
+## Install R using your package manager and RStudio
 
 - Follow the instructions for your distribution
   from [CRAN](https://cloud.r-project.org/bin/linux), they provide information
@@ -147,7 +147,7 @@ title: Setup
 
 :::::::::::::::::::::::::
 
-## For everyone
+### For everyone
 
 After installing R and RStudio, you need to install a couple of
 packages that will be used during the workshop. We will also learn
