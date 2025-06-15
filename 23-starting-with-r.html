@@ -436,21 +436,21 @@ with a number (<code>2x</code> is not valid, but <code>x2</code> is). R
 is case sensitive (e.g., <code>weight_kg</code> is different from
 <code>Weight_kg</code>). There are some names that cannot be used
 because they are the names of fundamental functions in R (e.g.,
-<code>if</code>, <code>else</code>, <code>for</code>, see <a href="https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html" class="external-link">here</a>
-for a complete list). In general, even if it’s allowed, it’s best to not
-use other function names (e.g., <code>c</code>, <code>T</code>,
-<code>mean</code>, <code>data</code>, <code>df</code>,
-<code>weights</code>). If in doubt, check the help to see if the name is
-already in use. It’s also best to avoid dots (<code>.</code>) within an
-object name as in <code>my.dataset</code>. There are many functions in R
-with dots in their names for historical reasons, but because dots have a
-special meaning in R (for methods) and other programming languages, it’s
-best to avoid them. It is also recommended to use nouns for object
-names, and verbs for function names. It’s important to be consistent in
-the styling of your code (where you put spaces, how you name objects,
-etc.). Using a consistent coding style makes your code clearer to read
-for your future self and your collaborators. In R, some popular style
-guides are <a href="https://google.github.io/styleguide/Rguide.xml" class="external-link">Google’s</a>, the
+<code>if</code>, <code>else</code>, <code>for</code>, see the <a href="https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html" class="external-link">Reserved
+Words in R</a> manual page, for a complete list). In general, even if
+it’s allowed, it’s best to not use other function names (e.g.,
+<code>c</code>, <code>T</code>, <code>mean</code>, <code>data</code>,
+<code>df</code>, <code>weights</code>). If in doubt, check the help to
+see if the name is already in use. It’s also best to avoid dots
+(<code>.</code>) within an object name as in <code>my.dataset</code>.
+There are many functions in R with dots in their names for historical
+reasons, but because dots have a special meaning in R (for methods) and
+other programming languages, it’s best to avoid them. It is also
+recommended to use nouns for object names, and verbs for function names.
+It’s important to be consistent in the styling of your code (where you
+put spaces, how you name objects, etc.). Using a consistent coding style
+makes your code clearer to read for your future self and your
+collaborators. In R, some popular style guides are <a href="https://google.github.io/styleguide/Rguide.xml" class="external-link">Google’s</a>, the
 <a href="https://style.tidyverse.org/" class="external-link">tidyverse’s</a> style and the <a href="https://bioconductor.org/developers/how-to/coding-style/" class="external-link">Bioconductor
 style guide</a>. The tidyverse’s is very comprehensive and may seem
 overwhelming at first. You can install the <a href="https://github.com/jimhester/lintr" class="external-link"><strong><code>lintr</code></strong></a>
