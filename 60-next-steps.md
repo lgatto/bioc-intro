@@ -51,7 +51,7 @@ To illustrate such an omics data container, we'll present the
 
 The figure below represents the anatomy of the SummarizedExperiment class.
 
-<img src="https://uclouvain-cbio.github.io/WSBIM1322/figs/SE.svg" width="80%" style="display: block; margin: auto;" />
+<img src="https://uclouvain-cbio.github.io/WSBIM1322/figs/SE.svg" alt="Schematic representation of the SummarizedExperiment class illustrating the following slots: fowData and rowRanges, one assay or multiple assays, colData and metadata." width="80%" style="display: block; margin: auto;" />
 
 Objects of the class SummarizedExperiment contain :
 
@@ -1038,7 +1038,7 @@ se |>
     theme_bw()
 ```
 
-<img src="fig/60-next-steps-rendered-tidySE-plot-1.png" style="display: block; margin: auto;" />
+<img src="fig/60-next-steps-rendered-tidySE-plot-1.png" alt="Density plot showing log of expression counts + 1 density lines, one per samples, coloured based on the infection status." style="display: block; margin: auto;" />
 
 For more information on tidySummarizedExperiment, see the package
 website
