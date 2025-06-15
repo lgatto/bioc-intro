@@ -90,8 +90,8 @@ provided (after raw data have been processed).
 
 - **An expression matrix**: we load the count matrix, specifying that
   the first columns contains row/gene names, and convert the
-  `data.frame` to a `matrix`. You can download it
-  [here](https://carpentries-incubator.github.io/bioc-intro/data/count_matrix.csv).
+  `data.frame` to a `matrix`. You can download it [by clicking this
+  link](https://carpentries-incubator.github.io/bioc-intro/data/count_matrix.csv).
 
 
 ``` r
@@ -137,8 +137,8 @@ dim(count_matrix)
 [1] 1474   22
 ```
 
-- **A table describing the samples**, available
-  [here](https://carpentries-incubator.github.io/bioc-intro/data/sample_metadata.csv).
+- **A table describing the samples**, available [at this
+  link](https://carpentries-incubator.github.io/bioc-intro/data/sample_metadata.csv).
 
 
 ``` r
@@ -180,8 +180,8 @@ dim(sample_metadata)
 [1] 22  9
 ```
 
-- **A table describing the genes**, available
-  [here](https://carpentries-incubator.github.io/bioc-intro/data/gene_metadata.csv).
+- **A table describing the genes**, available [at this
+  link](https://carpentries-incubator.github.io/bioc-intro/data/gene_metadata.csv).
 
 
 ``` r
@@ -1040,9 +1040,8 @@ se |>
 
 <img src="fig/60-next-steps-rendered-tidySE-plot-1.png" alt="Density plot showing log of expression counts + 1 density lines, one per samples, coloured based on the infection status." style="display: block; margin: auto;" />
 
-For more information on tidySummarizedExperiment, see the package
-website
-[here](https://stemangiola.github.io/tidySummarizedExperiment/).
+For more information on `tidySummarizedExperiment`, see the [package
+website](https://stemangiola.github.io/tidySummarizedExperiment/).
 
 **Take-home message**
 
