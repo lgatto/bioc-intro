@@ -258,7 +258,7 @@ Warning: Removed 507 rows containing non-finite outside the scale range
 (`stat_bin()`).
 ```
 
-<img src="fig/40-visualization-rendered-unnamed-chunk-6-1.png" alt="Histograms produced by ggplot(), geom_histogram() and scale_x_log10() for the log of expression." style="display: block; margin: auto;" />
+<img src="fig/40-visualization-rendered-unnamed-chunk-6-1.png" alt="Histogram produced by ggplot(), geom_histogram() and scale_x_log10() for the log of expression." style="display: block; margin: auto;" />
 
 :::::::::::::::::::::::::
 
